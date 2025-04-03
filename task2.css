@@ -1,6 +1,10 @@
+header{
+  padding: 20px;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #E5E1E6;
 }
 
 .navbar {
@@ -16,7 +20,9 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+  
 }
+
 
 .navbar .nav-links {
     list-style: none;
@@ -33,10 +39,12 @@ body {
     color: white;
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .navbar .nav-links a:hover {
     text-decoration: underline;
+    color:#8C9977 ;
 }
 
 img {
@@ -48,8 +56,13 @@ img {
 
 }
 
-section {
-    padding: 50px;
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #E4E6E1;
+}
+h2{
+    color:#43464b ;
 }
 
 .avatar {
@@ -57,12 +70,21 @@ section {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
+    object-fit: cover;
+    transition: transform 0,3s ease-in-out,box-shadow 0.3s ease-in-out;
+}
+.avatar img:hover{
+    transform: scale(1,1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
+    
 }
 
 footer {
     background-color: #333;
     color: white;
     padding: 10px;
+    margin: 10px;
 
     width: 100%;
     bottom: 0;
